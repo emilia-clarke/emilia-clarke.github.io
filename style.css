@@ -1,0 +1,74 @@
+html {
+    background-color: darkblue;
+    font: Palatino;
+}
+
+body {
+    background-color: white;
+    width: 75%;
+    border: solid black 1px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-top: none;
+    border-bottom: none;
+}
+
+#s2 {
+    font-size: 75%;
+}
+
+h2 {
+    font-family: cursive;
+    font-style: italic;
+    color: cadetblue;
+    font-size: 120%;
+}
+
+h1 {
+    font-family: cursive;
+    font-style: italic;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+}
+
+.content {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.content img, .content video {
+    max-width: 80%;
+}
+
+.nav {
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.nav a {
+    margin: 10px;
+    display: inline-block;
+}
+
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
